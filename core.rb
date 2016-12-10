@@ -31,7 +31,8 @@ puts "'print' does not add a \\n at the end of the string"
 puts 1.class
 puts 1.234.class
 puts "A String".class
-puts ""=end
+puts ""
+=end
 
 
 #Uncomment the load statement to view the output
@@ -52,7 +53,10 @@ puts ""=end
 #load "looping.rb"
 
 #Load functions Ruby
-load "functions.rb"
+#load "functions.rb"
+
+#Load Exceptions
+load "exceptions.rb"
 
 
 
